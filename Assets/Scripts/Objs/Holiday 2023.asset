@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5049adfded945804da800fdbd383203e, type: 3}
+  m_Name: Holiday 2023
+  m_EditorClassIdentifier: 
+  monthHolidays:
+  - monthIndex: 1
+    holidayIndex:
+    - minValue: 1
+      maxValue: 2
+    - minValue: 21
+      maxValue: 27
+  - monthIndex: 2
+    holidayIndex: []
+  - monthIndex: 3
+    holidayIndex: []
+  - monthIndex: 4
+    holidayIndex:
+    - minValue: 5
+      maxValue: 5
+    - minValue: 29
+      maxValue: 31
+  - monthIndex: 5
+    holidayIndex:
+    - minValue: 1
+      maxValue: 3
+  - monthIndex: 6
+    holidayIndex:
+    - minValue: 22
+      maxValue: 24
+  - monthIndex: 7
+    holidayIndex: []
+  - monthIndex: 8
+    holidayIndex: []
+  - monthIndex: 9
+    holidayIndex:
+    - minValue: 29
+      maxValue: 31
+  - monthIndex: 10
+    holidayIndex:
+    - minValue: 1
+      maxValue: 6
+  - monthIndex: 11
+    holidayIndex: []
+  - monthIndex: 12
+    holidayIndex: []

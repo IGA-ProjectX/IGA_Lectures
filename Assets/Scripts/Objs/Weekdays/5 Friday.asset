@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54a25b96657cf74eb446ef6fe10dc4f, type: 3}
+  m_Name: 5 Friday
+  m_EditorClassIdentifier: 
+  whichDayInWeek: 4
+  lectureType: 4
+  fundemantalLecture:
+  - nameChi: "\u591A\u8FB9\u5F62\u5EFA\u6A21\u3001\u7A0B\u5E8F\u5316\u6E32\u67D3\u57FA\u7840"
+    teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
+  - nameChi: "\u89D2\u8272\u5EFA\u6A21"
+    teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
+  advancedLectures:
+  - nameChi: "\u9AA8\u9ABC\u52A8\u753B"
+    teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
+  - nameChi: "\u98CE\u683C\u5316\u4E4B\u6F2B\u753B\u98CE\u683C"
+    teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
+  - nameChi: "\u98CE\u683C\u5316\u4E4B\u50CF\u7D20\u98CE\u683C"
+    teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
+  - nameChi: "Grease Pencil 2d\u52A8\u753B"
+    teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
+  - nameChi: "\u51E0\u4F55\u8282\u70B9\u4E0E\u7A0B\u5E8F\u5316\u5EFA\u6A21"
+    teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
+  - nameChi: "\u8D5B\u535A\u670B\u8BFE\u98CE\u683C\u573A\u666F"
+    teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}

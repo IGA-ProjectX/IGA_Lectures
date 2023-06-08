@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54a25b96657cf74eb446ef6fe10dc4f, type: 3}
+  m_Name: 3 Wednesday
+  m_EditorClassIdentifier: 
+  whichDayInWeek: 2
+  lectureType: 2
+  fundemantalLecture:
+  - nameChi: "\u6E38\u620F\u8BBE\u8BA1\u7406\u8BBA\u57FA\u7840\u5165\u95E8"
+    teacherData: {fileID: 11400000, guid: 9138207b54ad92642ac42992767f6fa1, type: 2}
+  - nameChi: "\u72EC\u7ACB\u6E38\u620F\u9274\u8D4F"
+    teacherData: {fileID: 11400000, guid: 9138207b54ad92642ac42992767f6fa1, type: 2}
+  advancedLectures:
+  - nameChi: "\u5173\u5361\u8BBE\u8BA1"
+    teacherData: {fileID: 11400000, guid: 9138207b54ad92642ac42992767f6fa1, type: 2}
+  - nameChi: "\u6E38\u620F\u5316\u601D\u7EF4\u8BAD\u7EC3"
+    teacherData: {fileID: 11400000, guid: 9138207b54ad92642ac42992767f6fa1, type: 2}
+  - nameChi: "\u6E38\u620F\u7CFB\u7EDF"
+    teacherData: {fileID: 11400000, guid: 9138207b54ad92642ac42992767f6fa1, type: 2}
+  - nameChi: "\u6E38\u620F\u751F\u4EA7\u7EC6\u5206"
+    teacherData: {fileID: 11400000, guid: 9138207b54ad92642ac42992767f6fa1, type: 2}
+  - nameChi: "\u6E38\u620F\u63A8\u9500\u6280\u5DE7"
+    teacherData: {fileID: 11400000, guid: 9138207b54ad92642ac42992767f6fa1, type: 2}
+  - nameChi: "\u7535\u5B50\u6E38\u620F\u53D1\u5C55\u53F2"
+    teacherData: {fileID: 11400000, guid: 9138207b54ad92642ac42992767f6fa1, type: 2}
