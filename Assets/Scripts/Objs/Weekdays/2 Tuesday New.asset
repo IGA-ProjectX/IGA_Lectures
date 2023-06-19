@@ -16,7 +16,19 @@ MonoBehaviour:
   lectureType: 1
   fundemantalLecture:
   - nameChi: "\u6E38\u620FTrailer\u526A\u8F91\u4E0E\u4E2A\u6027\u5316\u7F51\u7AD9\u7F16\u8F91"
-    teacherData: {fileID: 11400000, guid: b01bde80f9a4ccf49b4ff828f7e377b6, type: 2}
+    teacherData: {fileID: 11400000, guid: 7e374218837703f498ca24fc5f7abfdd, type: 2}
   - nameChi: "Indesign\u4F5C\u54C1\u96C6\u6392\u7248\u6DA6\u8272"
     teacherData: {fileID: 11400000, guid: b01bde80f9a4ccf49b4ff828f7e377b6, type: 2}
-  advancedLectures: []
+  advancedLectures:
+  - nameChi: "\u65E0\u8BFE\u7A0B\u5B89\u6392"
+    teacherData: {fileID: 0}
+  - nameChi: "\u65E0\u8BFE\u7A0B\u5B89\u6392"
+    teacherData: {fileID: 0}
+  - nameChi: "\u65E0\u8BFE\u7A0B\u5B89\u6392"
+    teacherData: {fileID: 0}
+  - nameChi: "\u65E0\u8BFE\u7A0B\u5B89\u6392"
+    teacherData: {fileID: 0}
+  - nameChi: "\u65E0\u8BFE\u7A0B\u5B89\u6392"
+    teacherData: {fileID: 0}
+  - nameChi: "\u65E0\u8BFE\u7A0B\u5B89\u6392"
+    teacherData: {fileID: 0}

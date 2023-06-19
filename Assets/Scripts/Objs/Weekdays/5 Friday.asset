@@ -15,12 +15,12 @@ MonoBehaviour:
   whichDayInWeek: 4
   lectureType: 4
   fundemantalLecture:
-  - nameChi: "\u591A\u8FB9\u5F62\u5EFA\u6A21\u3001\u7A0B\u5E8F\u5316\u6E32\u67D3\u57FA\u7840"
+  - nameChi: "\u591A\u8FB9\u5F62\u5EFA\u6A21\u3001\u7A0B\u5E8F\u5316\u57FA\u7840"
     teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
   - nameChi: "\u89D2\u8272\u5EFA\u6A21"
     teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
   advancedLectures:
-  - nameChi: "\u9AA8\u9ABC\u52A8\u753B"
+  - nameChi: "\u7ED1\u9AA8\u52A8\u753B"
     teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}
   - nameChi: "\u98CE\u683C\u5316\u4E4B\u6F2B\u753B\u98CE\u683C"
     teacherData: {fileID: 11400000, guid: b38c16039ce80534389d0a9d0c1c3dcc, type: 2}

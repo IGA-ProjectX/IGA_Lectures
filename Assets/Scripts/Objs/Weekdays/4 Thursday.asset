@@ -26,9 +26,9 @@ MonoBehaviour:
     teacherData: {fileID: 11400000, guid: 36e676c768a10dc4c9021e22d54f9b1d, type: 2}
   - nameChi: "\u5B9E\u6218-\u5854\u9632"
     teacherData: {fileID: 11400000, guid: 36e676c768a10dc4c9021e22d54f9b1d, type: 2}
-  - nameChi: "\u5B9E\u6218-\u52A8\u4F5CRogue"
+  - nameChi: "\u5B9E\u6218-\u8282\u594F\u8DD1\u9177"
     teacherData: {fileID: 11400000, guid: 36e676c768a10dc4c9021e22d54f9b1d, type: 2}
   - nameChi: "\u5B9E\u6218-\u8F7D\u5177\u6A21\u62DF"
     teacherData: {fileID: 11400000, guid: 36e676c768a10dc4c9021e22d54f9b1d, type: 2}
-  - nameChi: "\u5B9E\u6218-\u8282\u594F\u8DD1\u9177"
+  - nameChi: "\u5B9E\u6218-\u52A8\u4F5CRogue"
     teacherData: {fileID: 11400000, guid: 36e676c768a10dc4c9021e22d54f9b1d, type: 2}

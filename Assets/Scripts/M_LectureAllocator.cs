@@ -104,6 +104,15 @@ public class M_LectureAllocator : MonoBehaviour
             if (restDays.Count != 0) foreach (int dayToDelete in restDays)
                     if (residueDays.Contains(dayToDelete)) residueDays.Remove(dayToDelete);
             //Debug.Log(month + " Original Length: " + monthLength + " Residue Length: " + residueDays.Count);
+            if (residueDays.Count < 24)
+            {
+                int toAddDayCount = 24 - residueDays.Count;
+                for (int i = 0; i < toAddDayCount; i++)
+                {
+                    residueDays.Add(restDays[restDays.Count-1]);
+                    restDays.RemoveAt(restDays.Count-1);
+                }
+            }
 
             for (int i = 0; i < restDays.Count; i++)
                 if (restDays[i] <= monthLength)
@@ -178,7 +187,7 @@ public class M_LectureAllocator : MonoBehaviour
             //foreach (List<int> dayList in allWeekdayList) Debug.Log(dayList.Count);
 
             //预留彩蛋日和休息日的空间给与补课
-            for (int i = 2; i < allWeekdayList.Count; i++)
+            for (int i = 1; i < allWeekdayList.Count; i++)
             {
                 LectureType lectureType = weekdayLectures[i].lectureType;
                 LectureInfo l_AD = FindLectureInMonth(lectureType, month, true);
@@ -212,12 +221,12 @@ public class M_LectureAllocator : MonoBehaviour
             }
 
             //添加彩蛋课的课程排布
-            for (int i = 0; i < tueList.Count; i++)
-            {
-                LectureInfo l_AD = FindEasterEgg(LectureType.EasterEgg, true);
-                LectureInfo l_FD = FindEasterEgg(LectureType.EasterEgg, false);
-                temp.Add(new MonthDayLecture(tueList[i], LectureType.EasterEgg, l_FD, l_AD, i + 1, false));
-            }
+            //for (int i = 0; i < tueList.Count; i++)
+            //{
+            //    LectureInfo l_AD = FindEasterEgg(LectureType.EasterEgg, true);
+            //    LectureInfo l_FD = FindEasterEgg(LectureType.EasterEgg, false);
+            //    temp.Add(new MonthDayLecture(tueList[i], LectureType.EasterEgg, l_FD, l_AD, i + 1, false));
+            //}
 
             //添加休息日的信息排布
             for (int i = 0; i < monList.Count; i++)
@@ -303,9 +312,11 @@ public class M_LectureAllocator : MonoBehaviour
             }
             else
             {
-                returnInt = tueList[0];
-                tueList.RemoveAt(0);
-                return returnInt;
+                //returnInt = tueList[0];
+                //tueList.RemoveAt(0);
+                //return returnInt;
+                Debug.LogError("No Residue Day For Shift");
+                return 999;
             }
         }
     }

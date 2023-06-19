@@ -143,7 +143,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '21 : 30 - 24 : 00 (CN)'
+  m_text: '10 : 30 - 13 : 00 (CN)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29014693e9bf3114e988e8e2592a6db1, type: 2}
   m_sharedMaterial: {fileID: -8647846465159470058, guid: 29014693e9bf3114e988e8e2592a6db1, type: 2}
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.1
+  m_fontSize: 13.2
   m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '19 : 00 - 21 : 30 (CN)'
+  m_text: '08 : 00 - 10 : 30 (CN)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29014693e9bf3114e988e8e2592a6db1, type: 2}
   m_sharedMaterial: {fileID: -8647846465159470058, guid: 29014693e9bf3114e988e8e2592a6db1, type: 2}
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.25
+  m_fontSize: 12.9
   m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 1

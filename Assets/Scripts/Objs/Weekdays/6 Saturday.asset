@@ -24,9 +24,9 @@ MonoBehaviour:
     teacherData: {fileID: 11400000, guid: 13a7e3a3d28df3b4f9f1c90e40f6dcc1, type: 2}
   - nameChi: "\u5B9E\u6218\u5F00\u53D1\uFF1A\u7B2C\u4E00\u4EBA\u79F0\u5C04\u51FB"
     teacherData: {fileID: 11400000, guid: 13a7e3a3d28df3b4f9f1c90e40f6dcc1, type: 2}
-  - nameChi: "\u5B9E\u6218\u5F00\u53D1\uFF1A\u89C6\u89C9\u4E92\u52A8\u5C0F\u8BF4"
-    teacherData: {fileID: 11400000, guid: 13a7e3a3d28df3b4f9f1c90e40f6dcc1, type: 2}
   - nameChi: "\u5B9E\u6218\u5F00\u53D1\uFF1AIsometric\u5F39\u5E55\u5C04\u51FB"
+    teacherData: {fileID: 11400000, guid: 13a7e3a3d28df3b4f9f1c90e40f6dcc1, type: 2}
+  - nameChi: "\u5B9E\u6218\u5F00\u53D1\uFF1A\u6587\u5B57\u5192\u9669"
     teacherData: {fileID: 11400000, guid: 13a7e3a3d28df3b4f9f1c90e40f6dcc1, type: 2}
   - nameChi: "\u5B9E\u6218\u5F00\u53D1\uFF1A\u519C\u573A\u7ECF\u8425"
     teacherData: {fileID: 11400000, guid: 13a7e3a3d28df3b4f9f1c90e40f6dcc1, type: 2}

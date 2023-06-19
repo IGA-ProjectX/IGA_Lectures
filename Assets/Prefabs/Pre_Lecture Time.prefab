@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -98.2}
+  m_AnchoredPosition: {x: -0.0000076293945, y: -108}
   m_SizeDelta: {x: 1870, y: 2}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &5692182405882526868
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u5165\u95E8\u8BFE\n19 : 00 - 21 : 30 (CN)"
+  m_text: "\u5165\u95E8\u8BFE\n08 : 00 - 10 : 30 (CN)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29014693e9bf3114e988e8e2592a6db1, type: 2}
   m_sharedMaterial: {fileID: -8647846465159470058, guid: 29014693e9bf3114e988e8e2592a6db1, type: 2}
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14.15
+  m_fontSize: 13.75
   m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u8FDB\u9636\u8BFE\n21 : 30 - 24 : 00 (CN)"
+  m_text: "\u8FDB\u9636\u8BFE\n10 : 30 - 13 : 00 (CN)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29014693e9bf3114e988e8e2592a6db1, type: 2}
   m_sharedMaterial: {fileID: -8647846465159470058, guid: 29014693e9bf3114e988e8e2592a6db1, type: 2}
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.95
+  m_fontSize: 14.1
   m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 1
